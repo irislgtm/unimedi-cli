@@ -1,0 +1,32 @@
+{
+  "name": "tintering-cli",
+  "version": "1.0.0",
+  "description": "Universal image tinting CLI - fast lossless tinting and rainbow recoloring for PNG/JPEG/WebP",
+  "main": "lib/index.js",
+  "bin": {
+    "tinter": "./bin/tinter.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "dependencies": {
+    "commander": "^12.1.0",
+    "sharp": "^0.33.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "image",
+    "tint",
+    "recolor",
+    "rainbow",
+    "cli",
+    "png",
+    "jpeg",
+    "sharp",
+    "lossless"
+  ]
+}
